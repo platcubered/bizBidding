@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="flexContainer">
-      <img class="iconContainer flexItem" src="@/assets/baseline-tune-24px.svg">
+      <img class="iconContainer flexItem leftIcon" src="@/assets/baseline-tune-24px.svg">
       <span class="flexItem headderTitle">Featured</span>
-      <img class="iconContainer flexItem" src="@/assets/baseline-search-24px.svg"> 
+      <img class="iconContainer flexItem rightIcon" src="@/assets/baseline-search-24px.svg"> 
     </div>
-    <div>
-      <span class="flexItem headderSubTitle">RATING</span>
+    <div class="flaxContainer headderSubTitle">
+      <span class="flexItem">RATING</span>
       <img>
     </div>
   </div>
@@ -27,11 +27,18 @@ export default {
 .headderSubTitle {
   font-size: 15px;
   font-weight: 800;
+  margin: 5px 0 0 0;
 }
 .flexContainer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.leftIcon {
+  margin: 0 0 0 30px;
+}
+.rightIcon {
+  margin: 0 30px 0 0;
 }
 .flexItem {
 
