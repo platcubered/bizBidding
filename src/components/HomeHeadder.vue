@@ -21,14 +21,9 @@ export default {
 .main {
   padding: 30px 0 0 0 ;
 }
-.headderTitle {
-  color: #5887F9;
-  font-size: 30px;
-  font-weight: 900;
-}
 .headderSubTitle {
   display: flex;
-  font-size: 15px;
+  font-size: 11px;
   font-weight: 800;
   margin: 5px 0 0 0;
   justify-content: center;
@@ -39,16 +34,16 @@ export default {
   justify-content: space-between;
 }
 .leftIcon {
-  margin: 0 0 0 30px;
+  margin: 0 0 0 19px;
 }
 .rightIcon {
-  margin: 0 30px 0 0;
+  margin: 0 19px 0 0;
 }
 .flexItem {
 
 }
 .iconContainer {
-  width: 30px;
+  width: 29px;
 }
 .addBtn {
   color: white;

@@ -2,6 +2,7 @@ import Vue from 'vue'
 import router from 'vue-router'
 import HomeView from '@/views/Home.vue'
 import FilterView from '@/views/Filter.vue'
+import ListView from '@/views/List.vue'
 
 Vue.use(router);
 
@@ -10,6 +11,11 @@ export default new router({
   routes: [
     {
       path: '/',
+      name: 'index',
+      redirect: '/home'
+    },
+    {
+      path: '/home',
       name: 'home',
       component: HomeView
     },
@@ -17,7 +23,12 @@ export default new router({
       path: '/filter',
       name: 'filter',
       component: FilterView
-    }
+    },
+    {
+      path: '/list',
+      name: 'list',
+      component: ListView
+    },
     // {
     //   path: '/about',
     //   name: 'about',

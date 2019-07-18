@@ -1,19 +1,19 @@
 <template>
   <v-app>
-    <home></home>
+    <router-view></router-view>
+    
   </v-app>
 </template>
 
 <script>
-  import  home from '@/views/Home.vue'
 export default {
   
   name: 'App',
   components: {
-    home
   },
   data () {
     return {
+      
       //
     }
   }
@@ -21,6 +21,13 @@ export default {
 
 </script>
 <style>
-
+a {
+  text-decoration: none;
+}
+.headderTitle {
+  color: #5887F9;
+  font-size: 22px;
+  font-weight: 700;
+}
 </style>
 
