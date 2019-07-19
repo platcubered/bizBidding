@@ -38,9 +38,9 @@
           <router-link to="/list">
             <v-layout class="iconContainer" column>
               <img class="flexImg" :src="`${imgSrc[`${n-1}`].url}`">
-              <v-text>{{ imgSrc[`${n-1}`].text }}</v-text>
+              <div>{{ imgSrc[`${n-1}`].text }}</div>
             </v-layout>
-            </router-link>
+          </router-link>
           </v-flex>
         </v-layout>
       </v-flex>

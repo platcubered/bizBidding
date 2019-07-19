@@ -5,9 +5,21 @@
         POWER PLANT
       </div>
     </router-link>
-    <div class="boxImage2">Construction</div>
-    <div class="boxImage3">Wind Farm</div>
-    <div class="boxImage1">POWER PLANT</div>
+    <router-link to="/filter">
+      <div class="boxImage2">
+        Construction
+      </div>
+    </router-link>
+    <router-link to="/filter">
+      <div class="boxImage3">
+        Wind Farm
+      </div>
+    </router-link>
+    <router-link to="/filter">
+      <div class="boxImage1">
+        POWER PLANT
+      </div>
+    </router-link>
   </div>
 </template>
 
